@@ -1,0 +1,8 @@
+# Python packages Voice Database Query needs (installed by "Install or Update Voice Database Query.bat").
+# Pinned exactly. wxPython, accessible_output2 and pywin32 match Musician Forge's tested set for Python 3.14 (D13).
+wxPython==4.3.1
+accessible_output2==0.17
+pywin32==312
+# Voice input (D17): offline speech recognition and microphone capture. Both ship Windows wheels that work on any Python 3.
+vosk==0.3.45
+sounddevice==0.5.6

@@ -1,0 +1,56 @@
+# Voice Database Query
+
+# User databases are never committed, anywhere in the tree
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Speech models and audio
+models/
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# User settings, history, and logs (these live in AppData, but guard anyway)
+settings.json
+catalog.json
+history.json
+logs/
+*.log
+
+# Secrets, should never exist in this project
+.env
+.env.*
+*.key
+*.pem
+*.token
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+
+# Editors
+.vscode/
+.idea/
+
+# Windows and OneDrive
+desktop.ini
+Thumbs.db
+~$*
+
+# Claude desktop app output and work in progress
+Claude outputs/
+_wip/
